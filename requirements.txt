@@ -1,0 +1,5 @@
+# EDA notebook visualization dependencies. Core validation/EDA modules use only the Python standard library.
+pandas>=2.0
+matplotlib>=3.7
+seaborn>=0.13
+jupyterlab>=4.0

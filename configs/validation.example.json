@@ -1,0 +1,7 @@
+{
+  "data_root": "data/raw/ember2024",
+  "output_dir": "reports/validation",
+  "expected_file_type": "Win64",
+  "duplicate_key": "sha256",
+  "strict_json": false
+}

@@ -1,0 +1,9 @@
+{
+  "data_root": "data/raw/ember2024",
+  "output_dir": "data/processed/ember2024_win64_static_v1",
+  "schema_path": "data/processed/ember2024_win64_static_v1/feature_schema.json",
+  "duplicate_key": "sha256",
+  "expected_file_type": "Win64",
+  "include_partitions": ["train", "test"],
+  "drop_test_records_seen_in_train": true
+}

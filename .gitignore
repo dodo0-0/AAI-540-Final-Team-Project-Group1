@@ -1,0 +1,9 @@
+# Large local data and generated validation artifacts
+data/raw/
+data/interim/
+data/processed/
+reports/validation/
+reports/eda/
+__pycache__/
+*.py[cod]
+.venv/

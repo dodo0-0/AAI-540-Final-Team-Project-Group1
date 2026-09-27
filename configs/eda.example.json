@@ -1,0 +1,8 @@
+{
+  "data_root": "data/raw/ember2024",
+  "validation_summary": "reports/validation/validation_summary.json",
+  "output_dir": "reports/eda",
+  "sample_per_class": 5000,
+  "random_seed": 540,
+  "duplicate_key": "sha256"
+}

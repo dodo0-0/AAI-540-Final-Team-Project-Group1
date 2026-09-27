@@ -1,0 +1,12 @@
+{
+  "source_processed_dir": "data/processed/ember2024_win64_static_v1",
+  "output_dir": "data/processed/ember2024_win64_static_v1/temporal_splits_v1",
+  "schema_path": "data/processed/ember2024_win64_static_v1/feature_schema.json",
+  "strategy_version": "ember2024_win64_temporal_hybrid_v1",
+  "splits": {
+    "train": {"start_week": "2023-09-24", "end_week": "2024-06-23", "allowed_source_partitions": ["train"]},
+    "validation": {"start_week": "2024-06-30", "end_week": "2024-09-15", "allowed_source_partitions": ["train"]},
+    "test": {"start_week": "2024-09-22", "end_week": "2024-10-27", "allowed_source_partitions": ["test"]},
+    "reserved_production": {"start_week": "2024-11-03", "end_week": "2024-12-08", "allowed_source_partitions": ["test"]}
+  }
+}
